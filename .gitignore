@@ -3,3 +3,7 @@ node_modules
 .tmp
 npm-debug.log
 .vscode/settings.json
+src/02_08/NeuralNetworks
+src/02_08/NeuralNetworks.dSYM/Contents/Info.plist
+src/02_08/NeuralNetworks.dSYM/Contents/Resources/Relocations/aarch64/NeuralNetworks.yml
+src/02_08/NeuralNetworks.dSYM/Contents/Resources/DWARF/NeuralNetworks
