@@ -23,9 +23,11 @@ double Perceptron::run(std::vector<double> x){
 
 void Perceptron::set_weights(std::vector<double> w_init){
 	// w_init is a vector of doubles. Organize it as you'd like.
+	weights = w_init;
 }
 
 double Perceptron::sigmoid(double x){
 	// Return the output of the sigmoid function applied to x
-	return 0.0;
+	double out = 1.0/(1.0 + exp(-x));
+	return out;
 }
