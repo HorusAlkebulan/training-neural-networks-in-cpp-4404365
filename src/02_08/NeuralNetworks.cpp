@@ -43,8 +43,9 @@ int main(){
     //  1   0   1   10  10  -15  neg  -5  0.0066929
     //  1   1   1   10  10  -15  pos  +5  0.9933071
 
-    // p.set_weights({w0, w1, wb})
-    p.set_weights({10,10,-15}); // AND
+    // p.set_weights w0, w1, wb 
+    p.set_weights({10,10,-15}); 
+    // AND
 
     std::cout << "------ AND Gate -----" << std::endl;
     std::cout << "Actual: " << p.run({0,0}) << ", Expected: 0.0" << std::endl;
